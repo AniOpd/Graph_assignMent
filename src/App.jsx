@@ -15,7 +15,7 @@ import {
   CartesianGrid,
   ResponsiveContainer,
 } from "recharts";
-import data from "./eve.json";
+import data from "./assets/eve.json";
 const transformedData = data.map((item) => ({
   timestamp: item.timestamp,
   src_ip: item.src_ip,
