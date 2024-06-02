@@ -18,4 +18,9 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  build: {
+    rollupOptions: {
+      external: ['virtual:i18next-loader'],
+    },
+  }
 }
