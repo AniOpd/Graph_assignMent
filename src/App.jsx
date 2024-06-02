@@ -14,7 +14,7 @@ import {
   YAxis,
   CartesianGrid,
   ResponsiveContainer,
-} from "recharts";
+} from "/recharts";
 import data from "./eve.json";
 const transformedData = data.map((item) => ({
   timestamp: item.timestamp,
